@@ -1,0 +1,5 @@
+//Blogger API
+//API Key: AIzaSyD3h5-cgCmihqtpHSSQpOsob71RPWoa0DY
+//BlogId: 645477939881106143
+
+get https://www.googleapis.com/blogger/v3/blogs/645477939881106143/posts/search?q=label:akptag&key=AIzaSyD3h5-cgCmihqtpHSSQpOsob71RPWoa0DY
