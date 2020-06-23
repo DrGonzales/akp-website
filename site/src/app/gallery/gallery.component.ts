@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Lightbox, LightboxConfig } from 'ngx-lightbox';
+import { BloggerService } from '../share/blogger.service';
+import * as _ from 'lodash';
 
 
 @Component({
@@ -8,52 +10,64 @@ import { Lightbox, LightboxConfig } from 'ngx-lightbox';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements OnInit {
-
+  picurl: Array<String> = [];
   _album: Array<any> = [];
   title = 'site';
 
   constructor(private _lightbox: Lightbox,
-    private _lightboxconfig: LightboxConfig) {
+    private _lightboxconfig: LightboxConfig,
+    private blogerservice: BloggerService) {
 
     _lightboxconfig.fitImageInViewPort = true;
     _lightboxconfig.wrapAround = true;
     _lightboxconfig.resizeDuration = 1;
-
-    var src = 'https://3.bp.blogspot.com/-S-oJFKx_p58/XOEQWReo5EI/AAAAAAAAF1E/VViaNE3dP28-cDnifS2xwbsOsnd8SuvuQCLcBGAs/s800/DSC_1484-Bearbeitet.jpg';
-    var caption = 'Kyra';
-    var thumb = 'https://3.bp.blogspot.com/-S-oJFKx_p58/XOEQWReo5EI/AAAAAAAAF1E/VViaNE3dP28-cDnifS2xwbsOsnd8SuvuQCLcBGAs/s160/DSC_1484-Bearbeitet.jpg';
-    var album = {
-      src: src,
-      caption: caption,
-      thumb: thumb
-    }
-
-    this._album.push(album);
-    src = 'https://3.bp.blogspot.com/-C1K87hVsZdA/XOEQOYhnwKI/AAAAAAAAF04/sEoKZL8j23kOx9xeMtixd5U2_SU4DHhWQCLcBGAs/s800/DSC_1463.jpg';
-    caption = 'Action!!!';
-    thumb = 'https://3.bp.blogspot.com/-C1K87hVsZdA/XOEQOYhnwKI/AAAAAAAAF04/sEoKZL8j23kOx9xeMtixd5U2_SU4DHhWQCLcBGAs/s160/DSC_1463.jpg';
-    album = {
-      src: src,
-      caption: caption,
-      thumb: thumb
-    }
-
-    this._album.push(album);
   }
 
 
   ngOnInit(): void {
+    this.getPicUrl();
+  }
+
+  getPicUrl() {
+    this.blogerservice.getPictures().subscribe((data: Object) => {
+      console.log(data);
+      const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
+      const selectRegexGroup = 2;
+      const postPrecessImageUrl = str => str.replace("s1600", "$size");  //sxxxx erstellt Bilder bestimmter größer - s1600 1600px breite
+      var result = [];
+      data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl)).forEach(element => result.push(this.genEntry(element, 540, 1600, "Test"))));
+      this._album = _.sampleSize(result, 15);
+    })
 
   }
 
-
   open(index: number): void {
-
     this._lightbox.open(this._album, index);
   }
 
   close(): void {
-
     this._lightbox.close();
+  }
+
+
+  private getMatches(string, regex, index = 1, fn = str => str) {
+    var matches = [];
+    var match;
+    while (match = regex.exec(string)) {
+      matches.push(fn(match[index]));
+    }
+    return matches;
+  }
+
+  private genEntry(url: String, thumbsize: number, fullsize: number, titel: string) {
+    var src = url.replace("$size", "s" + fullsize);
+    var caption = titel;
+    var thumb = url.replace("$size", "s" + thumbsize);
+    return {
+      src: src,
+      caption: caption,
+      thumb: thumb
+    }
+
   }
 }

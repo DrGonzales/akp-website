@@ -1,3 +1,12 @@
-<div *ngFor="let image of _album; let i=index">
-  <img [src]="image.thumb" (click)="open(i)" />
+<div class="container">
+  <div class="row">
+    <div
+      class="col-xs-3 imgoutercontainer"
+      *ngFor="let image of _album; let i=index"
+    >
+      <div class="imgcontainer">
+        <img class="rimage" [src]="image.thumb" (click)="open(i)" />
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,0 +1,26 @@
+.imgcontainer {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  filter: drop-shadow(10px 10px 3px #555555);
+  border-radius: 3px 15px 5px 30px;
+}
+.imgoutercontainer {
+  padding: 10px;
+}
+
+.rimage {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.rimage:hover {
+  transform: rotate(5deg);
+}
