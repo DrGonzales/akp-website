@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "akp-site"
+  },
+  "targets": {
+    "akp-site": {
+      "hosting": {
+        "site": [
+          "akp-site"
+        ]
+      }
+    }
+  }
+}

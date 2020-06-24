@@ -21,6 +21,9 @@ export class GalleryComponent implements OnInit {
     _lightboxconfig.fitImageInViewPort = true;
     _lightboxconfig.wrapAround = true;
     _lightboxconfig.resizeDuration = 1;
+    _lightboxconfig.enableTransition = true;
+    _lightboxconfig.showImageNumberLabel = true;
+
   }
 
 
@@ -29,14 +32,13 @@ export class GalleryComponent implements OnInit {
   }
 
   getPicUrl() {
-    this.blogerservice.getPictures().subscribe((data: Object) => {
-      console.log(data);
+    this.blogerservice.getPictures().subscribe((data: any) => {
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace("s1600", "$size");  //sxxxx erstellt Bilder bestimmter größer - s1600 1600px breite
       var result = [];
-      data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl)).forEach(element => result.push(this.genEntry(element, 540, 1600, "Test"))));
-      this._album = _.sampleSize(result, 15);
+      data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl)).forEach(element => result.push(this.genEntry(element, 480, 1600, "Portraits Gallery"))));
+      this._album = _.sampleSize(result, 16);
     })
 
   }
