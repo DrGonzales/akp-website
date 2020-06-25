@@ -3,12 +3,12 @@ import { Lightbox, LightboxConfig } from 'ngx-lightbox';
 import { BloggerService } from '../share/blogger.service';
 import * as _ from 'lodash';
 
-
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.scss']
 })
+
 export class GalleryComponent implements OnInit {
   picurl: Array<String> = [];
   _album: Array<any> = [];
@@ -18,9 +18,9 @@ export class GalleryComponent implements OnInit {
     private _lightboxconfig: LightboxConfig,
     private blogerservice: BloggerService) {
 
-    _lightboxconfig.fitImageInViewPort = true;
+      _lightboxconfig.fitImageInViewPort = true;
     _lightboxconfig.wrapAround = true;
-    _lightboxconfig.resizeDuration = 1;
+    _lightboxconfig.resizeDuration = 0.5;
     _lightboxconfig.enableTransition = true;
     _lightboxconfig.showImageNumberLabel = true;
 

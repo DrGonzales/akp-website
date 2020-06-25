@@ -6,16 +6,6 @@
   filter: drop-shadow(3px 3px 3px #555555);
   border-radius: 3px 30px 3px 30px;
 }
-@media (max-width: 800px) {
-  .imgcontainer {
-    width: 140px;
-    height: 140px;
-  }
-}
-
-.imgoutercontainer {
-  padding: 10px;
-}
 
 .rimage {
   position: absolute;
@@ -28,13 +18,34 @@
   transition-property: transform;
 }
 
+.imgoutercontainer {
+  padding: 10px;
+}
+
+.rimage:hover {
+  transform: rotate(10deg);
+}
+
 @media (max-width: 800px) {
+  .imgcontainer {
+    width: 140px;
+    height: 140px;
+  }
+
   .rimage {
     max-width: 240px;
     height: auto;
   }
 }
 
-.rimage:hover {
-  transform: rotate(10deg);
+@media (min-width: 800px) and (max-width: 1024px) {
+  .imgcontainer {
+    width: 200px;
+    height: 200px;
+  }
+
+  .rimage {
+    max-width: 280px;
+    height: auto;
+  }
 }
