@@ -6,6 +6,13 @@
   filter: drop-shadow(3px 3px 3px #555555);
   border-radius: 3px 30px 3px 30px;
 }
+@media (max-width: 800px) {
+  .imgcontainer {
+    width: 140px;
+    height: 140px;
+  }
+}
+
 .imgoutercontainer {
   padding: 10px;
 }
@@ -19,6 +26,13 @@
   margin: auto;
   transition-duration: 0.8s;
   transition-property: transform;
+}
+
+@media (max-width: 800px) {
+  .rimage {
+    max-width: 240px;
+    height: auto;
+  }
 }
 
 .rimage:hover {
