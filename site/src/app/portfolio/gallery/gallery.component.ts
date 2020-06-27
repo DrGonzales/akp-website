@@ -9,7 +9,7 @@ import * as _ from 'lodash';
   styleUrls: ['./gallery.component.scss']
 })
 
-export class GalleryComponent {
+export class GalleryComponent{
 
   title = 'site';
 
@@ -25,7 +25,6 @@ export class GalleryComponent {
     lightboxconfig.resizeDuration = 0.5;
     lightboxconfig.enableTransition = true;
     lightboxconfig.showImageNumberLabel = true;
-
   }
 
   get pics(){
@@ -33,7 +32,7 @@ export class GalleryComponent {
   }
 
   open(index: number): void {
-    this.lightbox.open(this.pictures, index);
+    this.lightbox.open(this.pics, index);
   }
 
   close(): void {

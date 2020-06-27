@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faRandom } from '@fortawesome/free-solid-svg-icons';
-import { BloggerService } from '../share/blogger.adapter.service';
+import { BloggerAdapterService } from './share/blogger.adapter.service';
 import * as _ from 'lodash';
 
 @Component({
@@ -19,7 +19,7 @@ export class PortfolioComponent implements OnInit {
   result: Array<any> = [];
   shuffleIcon = faRandom;
 
-  constructor(private blogerservice: BloggerService) { }
+  constructor(private blogerAdapterservice: BloggerAdapterService) { }
 
   ngOnInit(): void {
     this.getPicUrl();
@@ -28,7 +28,7 @@ export class PortfolioComponent implements OnInit {
 
   //move to a Service
   getPicUrl() {
-    this.blogerservice.getPictures().subscribe((data: any) => {
+    this.blogerAdapterservice.getPictures().subscribe((data: any) => {
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace('s1600', '$size');
