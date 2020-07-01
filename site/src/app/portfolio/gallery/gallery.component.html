@@ -2,7 +2,7 @@
   <div class="d-flex flex-wrap">  
     <div
       class="imgoutercontainer"
-      *ngFor="let image of pics; let i=index">
+      *ngFor="let image of pictures; let i=index">
       <div class="imgcontainer">
         <img class="rimage" [src]="image.thumb" (click)="open(i)" />
       </div>

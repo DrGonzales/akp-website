@@ -14,7 +14,6 @@ export class GalleryComponent{
   title = 'site';
 
   @Input() pictures: Array<any>;
-  @Input() picCount: number;
 
   constructor(private lightbox: Lightbox,
               private lightboxconfig: LightboxConfig,
@@ -27,12 +26,8 @@ export class GalleryComponent{
     lightboxconfig.showImageNumberLabel = true;
   }
 
-  get pics(){
-    return _.sampleSize(this.pictures, this.picCount);
-  }
-
   open(index: number): void {
-    this.lightbox.open(this.pics, index);
+    this.lightbox.open(this.pictures, index);
   }
 
   close(): void {

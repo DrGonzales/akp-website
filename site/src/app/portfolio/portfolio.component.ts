@@ -1,3 +1,5 @@
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import { BloggerAdapterService } from './share/blogger.adapter.service';
@@ -19,22 +21,25 @@ export class PortfolioComponent implements OnInit {
   result: Array<any> = [];
   shuffleIcon = faRandom;
 
-  constructor(private blogerAdapterservice: BloggerAdapterService) { }
+  constructor(private route: ActivatedRoute,
+              private location: Location,
+              private blogerAdapterservice: BloggerAdapterService) { }
 
   ngOnInit(): void {
-    this.getPicUrl();
+    this.route.params.subscribe(routeParams => {
+      this.getPicUrl(routeParams.portfolio);
+    });
   }
 
-
   //move to a Service
-  getPicUrl() {
-    this.blogerAdapterservice.getPictures().subscribe((data: any) => {
+  getPicUrl(protfolio: string) {
+    this.blogerAdapterservice.getPictures(protfolio).subscribe((data: any) => {
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace('s1600', '$size');
       data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl))
         .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.galleryTitel))));
-      this.pictures = this.result;
+      this.pictures = _.sampleSize(this.result, this.picCount);
     });
   }
 
