@@ -9,7 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContentAdapterService } from './share/content-adapter-service';
 
-import { PortfolioModule} from './portfolio/portfolio.modul';
+import { PortfolioModule} from './portfolio/portfolio.module';
+import { SectionsModule} from './sections/sections.module';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,9 @@ import { PortfolioModule} from './portfolio/portfolio.modul';
     HttpClientModule,
     AppRoutingModule,
     NgbModule,
+    FontAwesomeModule,
     PortfolioModule,
-    FontAwesomeModule
+    SectionsModule
   ],
   providers: [ContentAdapterService],
   bootstrap: [AppComponent]

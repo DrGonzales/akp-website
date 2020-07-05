@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
 import { LightboxModule } from 'ngx-lightbox';
 import { GalleryComponent } from './gallery/gallery.component';
 
@@ -13,6 +15,7 @@ import { BloggerAdapterService } from './share/blogger.adapter.service';
     imports: [
       CommonModule,
       LightboxModule,
+      RouterModule
     ],
     declarations: [
         GalleryComponent,
