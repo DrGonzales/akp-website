@@ -4,7 +4,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 const routes: Routes = [
-  { path: 'portfolio', component: PortfolioComponent },
   { path: 'portfolio/:portfolio', component: PortfolioComponent }
 ];
 

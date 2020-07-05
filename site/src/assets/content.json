@@ -1,0 +1,26 @@
+{
+  "sections": [
+    {
+      "label": "Couples",
+      "sectiontext": "Liebe, Paare, Lovegoal...usw",
+      "sectionicons": [
+        "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s240/_DSC7923-Bearbeitet_3.jpg",
+        "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s240/DSC_3534-Bearbeitet_1.jpg",
+        "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s240/couple_15.jpg"
+      ],
+      "gallerytag": "couples",
+      "gallerytext": "Liebe, Paare, Lovegoal...usw"
+    },
+    {
+      "label": "TFP",
+      "sectiontext": "TFP Zeuchs",
+      "sectionicons": [
+        "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s240/_DSC7923-Bearbeitet_3.jpg",
+        "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s240/DSC_3534-Bearbeitet_1.jpg",
+        "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s240/couple_15.jpg"
+      ],
+      "gallerytag": "TFP",
+      "gallerytext": "Lorum Ipsum ....blup"
+    }
+  ]
+}

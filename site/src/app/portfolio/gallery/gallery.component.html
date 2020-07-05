@@ -1,13 +1,7 @@
-<div class="container">
-  <div class="d-flex flex-wrap">  
-    <div
-      class="imgoutercontainer"
-      *ngFor="let image of pictures; let i=index">
-      <div class="imgcontainer">
-        <img class="rimage" [src]="image.thumb" (click)="open(i)" />
-      </div>
+<div class="d-flex flex-wrap">
+  <div class="gallerycontainer" *ngFor="let image of pictures; let i=index">
+    <div class="piccontainer">
+      <img class="picture" [src]="image.thumb" (click)="open(i)" />
     </div>
   </div>
 </div>
-
-
