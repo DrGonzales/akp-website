@@ -33,18 +33,6 @@
     transform: scale(1);
   }
 }
-@keyframes popup1{
-  40% {
-    transform: scale(1.1);
-  }
-  70% {
-    transform: scale(0.6);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-
 
 
 @media (max-width: 800px) {

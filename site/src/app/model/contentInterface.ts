@@ -1,11 +1,10 @@
 
 export interface Section {
-    label: string;
     titel: string;
-    sectiontext: string;
+    longtext: string;
+    shorttext: string;
     secticons: Array<string>;
     gallerytag: string;
-    gallerytext: string;
 }
 
 export interface Content {

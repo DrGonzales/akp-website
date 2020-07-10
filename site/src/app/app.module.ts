@@ -5,10 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContentAdapterService } from './share/content-adapter-service';
-
 import { PortfolioModule} from './portfolio/portfolio.module';
 import { SectionsModule} from './sections/sections.module';
 
@@ -21,7 +18,6 @@ import { SectionsModule} from './sections/sections.module';
     HttpClientModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule,
     PortfolioModule,
     SectionsModule
   ],

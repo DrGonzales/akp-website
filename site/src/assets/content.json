@@ -1,28 +1,26 @@
 {
   "sections": [
     {
-      "label": "Couples",
-      "titel": "Paarbilder",
-      "sectiontext": "Liebe, Paare, Lovegoal...usw",
+      "titel": "Couples",
+      "longtext": "Ihr hättet gerne professionelle Bilder zusammen mit Eurer / Eurem Liebsten? Egal ob Paarshooting, Familienshooting, Freundinnenshooting - gerne setze ich Euch zusammen ins rechte Licht!  Meine Familien- und Paarshootings finden alle outdoor statt, die genaue Location wird in Absprache mit Euch fest gelegt. In zwangloser Atmosphäre verbringen wir eine schöne Zeit in der tolle Erinnerungen entstehen. Mir ist es dabei wichtig, auch ungestellte Fotos zu machen und nicht zu viel an zu leiten. Da sich nicht jeder von sich auch (mich eingeschlossen ;-)) locker und frei vor der Kamera zeigen kann, helfe ich Euch hier indem ich Euch unter anderem ein paar kleine Aufgaben an die Hand gebe. Und ehe Ihr Euch verseht, vergesst Ihr die Kamera und es entstehen tolle und spontane Fotos. Bei meinen Paarshootings gibt's meist so einigen Anlass zum Lachen und genau diesen Spaß den Ihr dabei habt, möchte ich mit meinen Fotos rüber bringen. Ihr hättet gerne auch Euren oder Eure Vierbeiner mit auf dem Foto? Kein Problem! Denn die Fellnasen gehören für mich genauso zur Familie wie die Zweibeiner uns sind selbstverständlich immer willkommen :-)",
+      "shorttext": "Ihr hättet gerne professionelle Bilder zusammen mit Eurer / Eurem Liebsten? Egal ob Paarshooting, Familienshooting, Freundinnenshooting - gerne setze ich Euch zusammen",
       "sectionicons": [
-        "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s800/_DSC7923-Bearbeitet_3.jpg",
-        "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s800/DSC_3534-Bearbeitet_1.jpg",
-        "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s800/couple_15.jpg"
+        "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s400/_DSC7923-Bearbeitet_3.jpg",
+        "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s400/DSC_3534-Bearbeitet_1.jpg",
+        "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s400/couple_15.jpg"
       ],
-      "gallerytag": "Couple",
-      "gallerytext": "Liebe, Paare, Lovegoal...usw"
+      "gallerytag": "Couple"
     },
     {
-      "label": "TFP",
       "titel": "TFP Shootings",
-      "sectiontext": "TFP Zeuchs",
+      "longtext": "TFP Zeuchs",
+      "shorttext": "Ihr hättet gerne professionelle Bilder zusammen mit Eurer / Eurem Liebsten? Egal ob Paarshooting, Familienshooting, Freundinnenshooting - gerne setze ich Euch zusammen",
       "sectionicons": [
         "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s800/_DSC7923-Bearbeitet_3.jpg",
         "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s800/DSC_3534-Bearbeitet_1.jpg",
         "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s800/couple_15.jpg"
       ],
-      "gallerytag": "TFP",
-      "gallerytext": "Lorum Ipsum ....blup"
+      "gallerytag": "TFP"
     }
   ]
 }

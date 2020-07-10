@@ -1,6 +1,5 @@
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import { BloggerAdapterService } from './share/blogger.adapter.service';
 import * as _ from 'lodash';
 import { ContentAdapterService } from '../share/content-adapter-service';
@@ -19,9 +18,7 @@ export class PortfolioComponent implements OnInit {
   pictures: Array<any> = [];
   sectionContent: Section ;
   picCount = 16;
-  galleryTitel = 'Lovegoals';
   result: Array<any> = [];
-  shuffleIcon = faRandom;
 
   constructor(private route: ActivatedRoute,
               private blogerAdapterservice: BloggerAdapterService,
@@ -50,7 +47,7 @@ export class PortfolioComponent implements OnInit {
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace('s1600', '$size');
       data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl))
-        .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.galleryTitel))));
+        .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.titel))));
       this.pictures = _.sampleSize(this.result, this.picCount);
     });
   }
