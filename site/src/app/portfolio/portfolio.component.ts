@@ -1,9 +1,10 @@
 import { ActivatedRoute } from '@angular/router';
-import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import { BloggerAdapterService } from './share/blogger.adapter.service';
 import * as _ from 'lodash';
+import { ContentAdapterService } from '../share/content-adapter-service';
+import { Section } from '../model/contentInterface';
 
 @Component({
   selector: 'app-portfolio',
@@ -16,22 +17,33 @@ import * as _ from 'lodash';
 export class PortfolioComponent implements OnInit {
 
   pictures: Array<any> = [];
+  sectionContent: Section ;
   picCount = 16;
   galleryTitel = 'Lovegoals';
   result: Array<any> = [];
   shuffleIcon = faRandom;
 
   constructor(private route: ActivatedRoute,
-              private location: Location,
-              private blogerAdapterservice: BloggerAdapterService) { }
+              private blogerAdapterservice: BloggerAdapterService,
+              private content: ContentAdapterService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(routeParams => {
-      this.getPicUrl(routeParams.portfolio);
+      const galleryTag = routeParams.portfolio;
+      this.content.getContent().subscribe(r => {
+        this.sectionContent = r.sections.filter((tag: { gallerytag: string; }) => {
+          return tag.gallerytag === galleryTag;
+        });
+      });
+      this.getPicUrl(galleryTag);
     });
   }
 
-  //move to a Service
+  get titel(){
+    return (this.sectionContent && this.sectionContent[0].titel) ? this.sectionContent[0].titel : null;
+  }
+
+  // move to a Service
   getPicUrl(protfolio: string) {
     this.blogerAdapterservice.getPictures(protfolio).subscribe((data: any) => {
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
@@ -43,25 +55,24 @@ export class PortfolioComponent implements OnInit {
     });
   }
 
-  //move to a Service
+  // move to a Service
   private getMatches(string, regex, index = 1, fn = str => str) {
-    var matches = [];
-    var match;
-    while (match = regex.exec(string)) {
+    const matches = [];
+    let match: any[];
+    while ( match = regex.exec(string)) {
       matches.push(fn(match[index]));
     }
     return matches;
   }
-  //move to a Service
+  // move to a Service
   private genEntry(url: String, thumbsize: number, fullsize: number, titel: string) {
-    var src = url.replace("$size", "s" + fullsize);
-    var caption = titel;
-    var thumb = url.replace("$size", "s" + thumbsize);
+    let src = url.replace('$size', 's' + fullsize);
+    let caption = titel;
+    let thumb = url.replace('$size', 's' + thumbsize);
     return {
-      src: src,
-      caption: caption,
-      thumb: thumb
-    }
+      src,
+      caption,
+      thumb
+    };
   }
-
 }

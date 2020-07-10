@@ -1,9 +1,10 @@
 <div class="py-5">
-  <p>sectionlist-component works!</p>
-  Hier kommen alle Sections hin! Couple TFP Gebämsel Mit oder ohne Gallery  Daten
-  aus der Content.json <br />
-
-
-  <a routerLink="/portfolio/Couple">Couples</a><br />
-  <a routerLink="/portfolio/TFP"> TFP</a>
+  <div class="sectioncontainer" *ngFor="let sc of sectioncontent.sections;">
+    <h2>{{sc.gallerytag}}</h2>
+        {{sc.sectiontext}}<br />
+        <div class="icons">
+      <img [src]="sc.sectionicons | samplepipe" />
+    </div>
+    <a [routerLink]="'/portfolio/'+sc.gallerytag">{{sc.gallerytag}}</a><br />
+  </div>
 </div>
