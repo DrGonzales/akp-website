@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-portfoliocontent',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfoliocontent.component.scss']
 })
 export class PortfoliocontentComponent implements OnInit {
+  @Input() longtext: string;
 
   constructor() { }
 

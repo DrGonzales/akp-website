@@ -1,24 +1,10 @@
-<div
-  class="container mb-4 py-2 section"
-  *ngFor="let sc of sectioncontent.sections;"
->
-  <div class="row">
-    <div class="col"><h2>{{sc.titel}}</h2></div>
-  </div>
-  <div class="row">
-    <div class="col-4">{{sc.shorttext}}</div>
-    <div class="col-8">
-      <img [src]="sc.sectionicons | samplepipe" />
-    </div>
-  </div>
-  <div class="row">
-    <div class="col mt-4 text-right">
-      <a
-        [routerLink]="'/portfolio/' + sc.gallerytag"
-        class="btn btn-danger btn-xl text-center"
-        ><fa-icon [icon]="buttonIcon"></fa-icon
-      ></a>
-      <a [routerLink]="'/portfolio/' + sc.gallerytag"><p>zur Gallery</p></a>
-    </div>
+<div class="sectioncontainer" >
+  <div class="contentcontainer" *ngFor="let sc of sectioncontent.sections;">
+    <a [routerLink]="'/portfolio/' + sc.gallerytag">
+      <div class="contentpicture">
+        <img [src]="sc.sectionicons | samplepipe" />
+      </div>
+      <div class="contenttext">{{sc.titel}}</div>
+    </a>
   </div>
 </div>

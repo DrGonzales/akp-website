@@ -40,6 +40,10 @@ export class PortfolioComponent implements OnInit {
     return (this.sectionContent && this.sectionContent[0].titel) ? this.sectionContent[0].titel : null;
   }
 
+  get longtext(){
+    return (this.sectionContent && this.sectionContent[0].longtext) ? this.sectionContent[0].longtext : null;
+  }
+
   // move to a Service
   getPicUrl(protfolio: string) {
     this.blogerAdapterservice.getPictures(protfolio).subscribe((data: any) => {

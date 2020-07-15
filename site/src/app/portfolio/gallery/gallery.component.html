@@ -1,4 +1,4 @@
-<div class="d-flex flex-wrap">
+<div class="flexwrap">
   <div class="gallerycontainer" *ngFor="let image of pictures; let i=index">
     <div class="piccontainer">
       <img class="picture" [src]="image.thumb" (click)="open(i)" />
