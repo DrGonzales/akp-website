@@ -10,6 +10,7 @@ import { PortfoliocontentComponent } from './portfoliocontent/portfoliocontent.c
 import { PortfoliofooterComponent } from './portfoliofooter/portfoliofooter.component';
 
 import { BloggerAdapterService } from './share/blogger.adapter.service';
+import { ErrorpageComponent } from '../errorpage/errorpage.component';
 
 @NgModule({
     imports: [
@@ -21,7 +22,8 @@ import { BloggerAdapterService } from './share/blogger.adapter.service';
         GalleryComponent,
         PortfolioComponent,
         PortfoliocontentComponent,
-        PortfoliofooterComponent
+        PortfoliofooterComponent,
+        ErrorpageComponent
     ],
     providers: [BloggerAdapterService ],
   })

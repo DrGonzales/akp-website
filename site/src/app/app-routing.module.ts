@@ -5,7 +5,7 @@ import { SectionlistComponentComponent } from './sections/sectionlist-component/
 
 
 const routes: Routes = [
-  { path: '', component: SectionlistComponentComponent },
+  { path: 'sections', component: SectionlistComponentComponent },
   { path: 'portfolio/:portfolio', component: PortfolioComponent }
 ];
 

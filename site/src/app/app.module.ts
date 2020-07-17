@@ -9,9 +9,10 @@ import { ContentAdapterService } from './share/content-adapter-service';
 import { PortfolioModule} from './portfolio/portfolio.module';
 import { SectionsModule} from './sections/sections.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

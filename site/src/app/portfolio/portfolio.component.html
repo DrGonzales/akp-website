@@ -1,6 +1,10 @@
-<div class="container">
+<div class="container" *ngIf="pictures?.length>0">
   <h1>{{titel}}</h1>
   <app-portfoliocontent [longtext]="longtext"></app-portfoliocontent>
   <app-gallery [pictures]="pictures"></app-gallery>
-  <app-portfoliofooter></app-portfoliofooter>
+  <app-portfoliofooter [shorttext]="shorttext"></app-portfoliofooter>
 </div>
+<div class="container" *ngIf="!pictures">
+  <app-errorpage></app-errorpage>
+</div>
+
