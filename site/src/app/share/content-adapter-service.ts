@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class ContentAdapterService {
    constructor(private http: HttpClient){}
-    getContent(): Observable<any>{
+    getContent() {
       const url = 'assets/content.json';
       return this.http.get(url);
     }
