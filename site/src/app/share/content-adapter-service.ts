@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Sections } from '../model/contentInterface';
+
 
 @Injectable()
 export class ContentAdapterService {
-   constructor(private http: HttpClient){}
-    getContent() {
-      const url = 'assets/content.json';
-      return this.http.get(url);
-    }
+
+  constructor(private http: HttpClient) { }
+  getContent() {
+    const url = 'assets/content.json';
+    return this.http.get<Sections[]>(url);
+  }
 }

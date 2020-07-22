@@ -1,0 +1,9 @@
+<div class="cardcontainer">
+<div class="contentcontainer" *ngFor="let card of cards;">
+<a [routerLink]="'/portfolio/' + section + '/' + card.tag">
+    <div class="contentpicture">
+      <img [src]="card.icons | samplepipe" />
+    </div>
+    <div class="contenttext">{{card.titel}}</div>
+  </a>
+</div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ContentAdapterService } from 'src/app/share/content-adapter-service';
-import * as _ from 'lodash';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { Sections } from 'src/app/model/contentInterface';
 
 @Component({
   selector: 'app-sectionlist-component',
@@ -9,10 +9,15 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./sectionlist-component.component.scss']
 })
 export class SectionlistComponentComponent implements OnInit {
-  sectioncontent: any = [];
+  sectionContent: Sections[];
   buttonIcon = faLink;
-  constructor(private content: ContentAdapterService){}
+
+  constructor(private contentservice: ContentAdapterService) { }
+
   ngOnInit(): void {
-    this.content.getContent().subscribe( values => this.sectioncontent = values );
+    this.contentservice.getContent().subscribe(result => {
+      this.sectionContent = result;
+    });
   }
+
 }

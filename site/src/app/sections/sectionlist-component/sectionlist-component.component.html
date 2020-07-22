@@ -1,10 +1,9 @@
-<div class="sectioncontainer" >
-  <div class="contentcontainer" *ngFor="let sc of sectioncontent.sections;">
-    <a [routerLink]="'/portfolio/' + sc.gallerytag">
-      <div class="contentpicture">
-        <img [src]="sc.sectionicons | samplepipe" />
+<div class="cardcontainer" >
+  <div class="contentcontainer" *ngFor="let section of sectionContent;">
+      <div>
+        <h2>{{section.titel}}</h2>
+        {{section.text}}
       </div>
-      <div class="contenttext">{{sc.titel}}</div>
-    </a>
+      <app-sectioncards [cards]="section.cards" [section]="section.tag"></app-sectioncards>
   </div>
 </div>

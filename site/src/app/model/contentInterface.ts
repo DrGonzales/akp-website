@@ -1,12 +1,16 @@
 
-export interface Section {
+export interface Card {
     titel: string;
     longtext: string;
     shorttext: string;
-    secticons: Array<string>;
-    gallerytag: string;
+    icons: Array<string>;
+    tag: string;
 }
 
-export interface Content {
-    sections: Array<Section>;
+export interface Sections {
+    tag: string;
+    titel: string;
+    text: string;
+    cards: Array<Card>;
 }
+

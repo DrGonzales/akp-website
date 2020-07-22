@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { BloggerAdapterService } from './share/blogger.adapter.service';
 import * as _ from 'lodash';
 import { ContentAdapterService } from '../share/content-adapter-service';
-import { Section } from '../model/contentInterface';
+import { Sections, Card } from '../model/contentInterface';
+
 
 @Component({
   selector: 'app-portfolio',
@@ -15,48 +16,40 @@ import { Section } from '../model/contentInterface';
 
 export class PortfolioComponent implements OnInit {
 
-  pictures: Array<any> = [];
-  sectionContent: Section;
+  pictures: Array<string> = [];
+  
+  cardContent: Card;
   picCount = 16;
   result: Array<any> = [];
 
   constructor(private route: ActivatedRoute,
     private blogerAdapterservice: BloggerAdapterService,
-    private content: ContentAdapterService) { }
+    private contentservice: ContentAdapterService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(routeParams => {
-      const galleryTag = routeParams.portfolio;
-      this.content.getContent().subscribe(r => {
-        this.sectionContent = r.sections.filter((tag: { gallerytag: string; }) => {
-          return tag.gallerytag === galleryTag;
-        });
+
+      const tag = routeParams.portfolio;
+      const section = routeParams.section;
+      this.contentservice.getContent().subscribe(result => {
+        this.cardContent = result.filter(sec => sec.tag === section)[0]?.cards.filter(ca => ca.tag === tag)[0];
       });
-      this.getPicUrl(galleryTag);
+
+      this.getPicUrl(tag);
     });
   }
 
-  get titel() {
-    return (this.sectionContent && this.sectionContent[0]) ? this.sectionContent[0].titel : null;
-  }
-
-  get longtext() {
-    return (this.sectionContent && this.sectionContent[0]) ? this.sectionContent[0].longtext : null;
-  }
-
-  get shorttext() {
-    return (this.sectionContent && this.sectionContent[0]) ? this.sectionContent[0].shorttext : null;
-  }
 
   // move to a Service
   getPicUrl(protfolio: string) {
     this.blogerAdapterservice.getPictures(protfolio).subscribe((data: any) => {
+      console.log(data);
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace('s1600', '$size');
       if (data && data.items) {
         data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl))
-          .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.titel))));
+          .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.cardContent.titel))));
         this.pictures = _.sampleSize(this.result, this.picCount);
       } else {
         this.pictures = null;
