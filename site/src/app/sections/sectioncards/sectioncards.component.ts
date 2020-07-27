@@ -9,7 +9,7 @@ export class SectioncardsComponent implements OnInit {
 
   @Input() cards: any;
   @Input() section: string;
-  constructor() {}
+  constructor() { }
 
   ngOnInit(): void {
   }

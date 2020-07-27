@@ -1,20 +1,20 @@
 import { Action } from '@ngrx/store';
-import { Content } from '../model/contentInterface';
+import { Sections } from '../model/contentInterface';
 
 export enum ActionTypes {
     LoadContent = '[Content] Load Content',
-    LoadContentFinished = '[Content] Load Content finished',
+    LoadContentSuccess = '[Content] Load Content finished',
 }
 
 export class LoadContentLoadAction implements Action {
     readonly type = ActionTypes.LoadContent;
 }
 
-export class LoadContentFinishedAction implements Action {
-    readonly type = ActionTypes.LoadContentFinished;
-    constructor(public payload: any) { }
+export class LoadContentSuccessAction implements Action {
+    readonly type = ActionTypes.LoadContentSuccess;
+    constructor(public payload: Sections[]) { }
 }
 
 export type ContentLoadingActions =
         | LoadContentLoadAction
-        | LoadContentFinishedAction;
+        | LoadContentSuccessAction;

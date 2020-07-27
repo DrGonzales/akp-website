@@ -1,5 +1,5 @@
 <div class="cardcontainer" >
-  <div class="contentcontainer" *ngFor="let section of sectionContent;">
+  <div class="contentcontainer" *ngFor="let section of sectionContent$ | async;">
       <div>
         <h2>{{section.titel}}</h2>
         {{section.text}}

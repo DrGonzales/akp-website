@@ -1,21 +1,21 @@
-import { Content } from '../model/contentInterface';
+import { Sections } from '../model/contentInterface';
 import { ContentLoadingActions, ActionTypes } from './contentloading.actions';
 
-export interface PortfolioState {
-    content: Content;
+export interface ReducerContentLoadState {
+    content: Sections[];
 }
 
-export const initialState: PortfolioState = {
-    content: null
+export const initialState: ReducerContentLoadState = {
+    content: []
 };
 
-export function portfolioReducer(
+export function contentLoadReducer(
     state = initialState,
     action: ContentLoadingActions,
 
-): PortfolioState {
+): ReducerContentLoadState {
     switch (action.type) {
-        case ActionTypes.LoadContentFinished: {
+        case ActionTypes.LoadContentSuccess: {
             return {
                 ...state,
                 content: action.payload

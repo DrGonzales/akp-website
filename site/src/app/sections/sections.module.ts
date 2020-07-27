@@ -6,7 +6,6 @@ import { SamplePipe } from './share/sample.pipe';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SectioncardsComponent } from './sectioncards/sectioncards.component';
 
-
 @NgModule({
   declarations: [SectionlistComponentComponent, SamplePipe, SectioncardsComponent],
   imports: [

@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ContentAdapterService } from 'src/app/share/content-adapter-service';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { Sections } from 'src/app/model/contentInterface';
+import { Observable } from 'rxjs';
+import { ContentLoaderState, getContentSelector } from '../../store';
+import { Store, select } from '@ngrx/store';
+
 
 @Component({
   selector: 'app-sectionlist-component',
@@ -9,15 +12,13 @@ import { Sections } from 'src/app/model/contentInterface';
   styleUrls: ['./sectionlist-component.component.scss']
 })
 export class SectionlistComponentComponent implements OnInit {
-  sectionContent: Sections[];
+  sectionContent$: Observable<Array<Sections>>;
   buttonIcon = faLink;
 
-  constructor(private contentservice: ContentAdapterService) { }
+  constructor(private store: Store<ContentLoaderState>) { }
 
   ngOnInit(): void {
-    this.contentservice.getContent().subscribe(result => {
-      this.sectionContent = result;
-    });
+    this.sectionContent$ = this.store.select(getContentSelector);
   }
 
 }
