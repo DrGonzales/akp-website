@@ -11,4 +11,6 @@ export class ContentAdapterService {
     const url = 'assets/content.json';
     return this.http.get<Sections[]>(url);
   }
+
+ //todo : getCard(name: string){}
 }

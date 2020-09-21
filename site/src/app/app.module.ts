@@ -15,8 +15,6 @@ import { StoreModule } from '@ngrx/store';
 
 import { featureStateName, ContentLoadingEffects, contentloadingReducers } from './store';
 
-import { environment } from '../environments/environment';
-
 @NgModule({
   declarations: [
     AppComponent

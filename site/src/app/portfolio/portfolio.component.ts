@@ -17,7 +17,7 @@ import { Sections, Card } from '../model/contentInterface';
 export class PortfolioComponent implements OnInit {
 
   pictures: Array<string> = [];
-  
+
   cardContent: Card;
   picCount = 16;
   result: Array<any> = [];
@@ -43,14 +43,13 @@ export class PortfolioComponent implements OnInit {
   // move to a Service
   getPicUrl(protfolio: string) {
     this.blogerAdapterservice.getPictures(protfolio).subscribe((data: any) => {
-      console.log(data);
       const findImageLinks = /(href..)\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/g;
       const selectRegexGroup = 2;
       const postPrecessImageUrl = str => str.replace('s1600', '$size');
       if (data && data.items) {
         data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl))
           .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.cardContent.titel))));
-        this.pictures = _.sampleSize(this.result, this.picCount);
+          this.pictures = _.sampleSize(this.result, this.picCount);
       } else {
         this.pictures = null;
       }
@@ -62,6 +61,7 @@ export class PortfolioComponent implements OnInit {
     const matches = [];
     let match: any[];
     while (match = regex.exec(string)) {
+      console.log(match[index]);
       matches.push(fn(match[index]));
     }
     return matches;

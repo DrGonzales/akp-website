@@ -1,7 +1,7 @@
 <div class="flexwrap">
   <div class="gallerycontainer" *ngFor="let image of pictures; let i=index">
     <div class="piccontainer">
-      <img class="picture" [src]="image.thumb" (click)="open(i)" />
+      <img loading="lazy" class="picture" [src]="image.thumb" (click)="open(i)" />
     </div>
   </div>
 </div>

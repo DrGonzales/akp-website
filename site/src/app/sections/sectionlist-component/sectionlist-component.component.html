@@ -1,9 +1,20 @@
-<div class="cardcontainer" >
-  <div class="contentcontainer" *ngFor="let section of sectionContent$ | async;">
+<div class="cardcontainer">
+  <div
+    class="contentcontainer"
+    *ngFor="let section of sectionContent$ | async;"
+    [ngStyle]="{'background-image':'url(' + section.bg + ')', 'background-size':'cover'}"
+  >
+    <div class="contentoverlay">
       <div>
         <h2>{{section.titel}}</h2>
-        {{section.text}}
+        <div class="text">
+          {{section.text}}
+        </div>
       </div>
-      <app-sectioncards [cards]="section.cards" [section]="section.tag"></app-sectioncards>
+      <app-sectioncards
+        [cards]="section.cards"
+        [section]="section.tag"
+      ></app-sectioncards>
+    </div>
   </div>
 </div>
