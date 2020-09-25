@@ -4,7 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContentAdapterService } from './share/content-adapter-service';
 import { PortfolioModule} from './portfolio/portfolio.module';
 import { SectionsModule} from './sections/sections.module';
@@ -12,12 +11,12 @@ import { SectionsModule} from './sections/sections.module';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 
-
 import { featureStateName, ContentLoadingEffects, contentloadingReducers } from './store';
+import { PipesModule } from './pipes/pipes.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     StoreModule.forRoot({}),
@@ -27,9 +26,9 @@ import { featureStateName, ContentLoadingEffects, contentloadingReducers } from 
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule,
     PortfolioModule,
-    SectionsModule
+    SectionsModule,
+    PipesModule
   ],
   providers: [ContentAdapterService],
   bootstrap: [AppComponent]

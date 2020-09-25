@@ -1,10 +1,24 @@
-<div class="container" *ngIf="pictures?.length>0">
-  <h1>{{cardContent.titel}}</h1>
-  <app-portfoliocontent [longtext]="cardContent.longtext"></app-portfoliocontent>
-  <app-gallery [pictures]="pictures"></app-gallery>
-  <app-portfoliofooter [shorttext]="cardContent.shorttext"></app-portfoliofooter>
+<div class="cardcontainer">
+  <div class="card" *ngIf="pictures?.length>0">
+    <img [src]="cardContent.icons | samplepipe" class="card__img" />
+    <div class="card__body">
+      <h1 class="card__title">{{cardContent.titel}}</h1>
+      <app-portfoliocontent
+        [longtext]="cardContent.longtext"
+      ></app-portfoliocontent>
+      <app-gallery [pictures]="pictures"></app-gallery>
+      <app-portfoliofooter
+        [shorttext]="cardContent.shorttext"
+      ></app-portfoliofooter>
+    </div>
+  </div>
+</div>
+<div class="backbutton">
+  <img [src]="cardContent.icons | samplepipe" class="backbuttonpic" />
+  <div class="backbuttonicon">
+    <a routerLink="/"><fa-icon class="backbuttoncolor" [icon]="homeIcon"></fa-icon></a>
+  </div>
 </div>
 <div class="container" *ngIf="!pictures">
   <app-errorpage></app-errorpage>
 </div>
-

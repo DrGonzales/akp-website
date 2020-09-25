@@ -14,3 +14,7 @@ export interface Sections {
     cards: Array<Card>;
 }
 
+export interface Content {
+    galleryContent: Array<Sections>;
+    contact: any;
+}

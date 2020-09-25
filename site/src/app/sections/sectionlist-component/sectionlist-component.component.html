@@ -1,16 +1,11 @@
 <div class="cardcontainer">
-  <div
-    class="contentcontainer"
-    *ngFor="let section of sectionContent$ | async;"
-    [ngStyle]="{'background-image':'url(' + section.bg + ')', 'background-size':'cover'}"
-  >
-    <div class="contentoverlay">
-      <div>
-        <h2>{{section.titel}}</h2>
-        <div class="text">
-          {{section.text}}
-        </div>
-      </div>
+<div class="card" *ngFor="let section of sectionContent$ | async;">
+    <img [src]="section.cards | combinepipe | samplepipe" class="card__img" />
+    <div class="card__body" >
+      <h3 class="card__title">{{section.titel}}</h3>
+      <p class="card__text">
+        {{section.text}}
+      </p>
       <app-sectioncards
         [cards]="section.cards"
         [section]="section.tag"

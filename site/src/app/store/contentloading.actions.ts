@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { Sections, Card } from '../model/contentInterface';
+import { Card, Content } from '../model/contentInterface';
 
 export enum ActionTypes {
     LoadContent = '[Content] Load Content',
@@ -19,7 +19,7 @@ export class LoadPortfolioContentLoadAction implements Action {
 
 export class LoadContentSuccessAction implements Action {
     readonly type = ActionTypes.LoadContentSuccess;
-    constructor(public payload: Sections[]) { }
+    constructor(public payload: Content) { }
 }
 
 export class LoadPortfolioContentSuccessAction implements Action {

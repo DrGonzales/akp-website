@@ -5,6 +5,7 @@ export interface ReducerContentLoadState {
     content: Sections[];
     card: Card;
     gallery: string[];
+    defaultcontent: any;
     nocontent: boolean;
 }
 
@@ -12,6 +13,7 @@ export const initialState: ReducerContentLoadState = {
     content: [],
     card: null,
     gallery: [],
+    defaultcontent: null,
     nocontent: true
 };
 
@@ -24,7 +26,8 @@ export function contentLoadReducer(
         case ActionTypes.LoadContentSuccess: {
             return {
                 ...state,
-                content: action.payload
+                content: action.payload.galleryContent,
+                defaultcontent: action.payload.contact
             };
         }
         case ActionTypes.LoadPortfolioContentSuccess: {

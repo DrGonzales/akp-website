@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { BloggerAdapterService } from './share/blogger.adapter.service';
 import * as _ from 'lodash';
 import { ContentAdapterService } from '../share/content-adapter-service';
-import { Sections, Card } from '../model/contentInterface';
+import { Card } from '../model/contentInterface';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -19,8 +20,9 @@ export class PortfolioComponent implements OnInit {
   pictures: Array<string> = [];
 
   cardContent: Card;
-  picCount = 16;
+  picCount = 12;
   result: Array<any> = [];
+  homeIcon = faHome;
 
   constructor(private route: ActivatedRoute,
     private blogerAdapterservice: BloggerAdapterService,
@@ -32,7 +34,7 @@ export class PortfolioComponent implements OnInit {
       const tag = routeParams.portfolio;
       const section = routeParams.section;
       this.contentservice.getContent().subscribe(result => {
-        this.cardContent = result.filter(sec => sec.tag === section)[0]?.cards.filter(ca => ca.tag === tag)[0];
+        this.cardContent = result.galleryContent.filter(sec => sec.tag === section)[0]?.cards.filter(ca => ca.tag === tag)[0];
       });
 
       this.getPicUrl(tag);

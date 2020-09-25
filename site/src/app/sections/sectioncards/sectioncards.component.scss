@@ -1,6 +1,10 @@
-.cardcontainer {
+.container {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+	
 }
 
 .contentcontainer {
@@ -32,14 +36,30 @@
 }
 
 .contentpicture {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   padding: 0.5em;
 }
+
+
+@media (max-width: 820px) {
+  .contentpicture {
+    width: 132px;
+    height: 132px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1116px) {
+  .contentpicture {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: drop-shadow(3px 3px 3px #555555);
+  filter: drop-shadow(4px 4px 4px #000000);
 }
