@@ -1,0 +1,7 @@
+<div class="contacts">
+  <div class="contact">
+    <div *ngFor="let contact of (contactconfig$ | async)?.contacts">
+      <a class="nav" [href]="contact.url">{{contact.icon}}</a>
+    </div>
+  </div>
+</div>

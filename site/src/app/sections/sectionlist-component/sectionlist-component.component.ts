@@ -3,7 +3,7 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { Sections } from 'src/app/model/contentInterface';
 import { Observable } from 'rxjs';
 import { ContentLoaderState, getContentSelector } from '../../store';
-import { Store, select } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 
 
 @Component({

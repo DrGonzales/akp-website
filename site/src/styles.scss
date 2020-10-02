@@ -1,13 +1,14 @@
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.6;
-}
+  }
 
 .cardcontainer {
   display: grid;
   place-items: center;
 }
+
 .card {
   position: relative;
   width: 70%;
@@ -43,8 +44,8 @@ body {
 }
 
 .card__body {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background: rgba(255, 255, 255, 0.4);
+  color:black;
   padding: 3rem;
 }
 
@@ -56,7 +57,7 @@ body {
 
 .card__title {
   font-size: 3rem;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 0.5em;
   position: relative;
   color: black;
@@ -65,25 +66,18 @@ body {
 .card__title::before {
   content: "";
   position: absolute;
-  background: yellow;
-  width: calc(100% + 5rem);
+  
+  width: calc(100% + 2rem);
   top: -0.1em;
   bottom: -0.15em;
-  left: -5rem;
+  left: -2rem;
   z-index: -1;
-  box-shadow: inset -15px 0 10px -10px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
+
 }
 
-.card__title::after {
-  content: "";
-  position: absolute;
-  top: -0.1em;
-  bottom: -0.15em;
-  left: calc(100% + 3rem);
-  width: 3rem;
-  background: yellow;
-  box-shadow: inset 12px 0 10px -10px rgba(0, 0, 0, 0.5);
-}
+
 
 .card__text {
   text-align: left;

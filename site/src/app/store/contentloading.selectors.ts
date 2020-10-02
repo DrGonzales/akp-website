@@ -18,5 +18,8 @@ export const getContentLoadFeatureState = createFeatureSelector<ContentLoaderSta
 
 export const getContentSelector = createSelector(
     getContentLoadFeatureState,
-    (state: ContentLoaderState ) => state.contentload.content );
+    (state: ContentLoaderState) => state.contentload.content);
 
+export const getContactConfigSelector = createSelector(
+    getContentLoadFeatureState,
+    (state: ContentLoaderState) => state.contentload.contactConfig);

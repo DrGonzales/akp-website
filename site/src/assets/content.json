@@ -23,10 +23,61 @@
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
-            "https://1.bp.blogspot.com/-qZ5Ge7cllYg/XZoSNDSuaCI/AAAAAAAAGBM/5hbIidKHAcMyH3RChiBC4U10SArcuJiGgCLcBGAsYHQ/s480/DSC_2380-Bearbeitet.jpg",
-            "https://1.bp.blogspot.com/-G_cMMiMZq4E/XZoSBBi0uqI/AAAAAAAAGAw/yZQqeZRDQ3s0T5cHnAUIJ36d9YW5ZNstACLcBGAsYHQ/s480/DSC_2344-Bearbeitet.jpg",
-            "https://1.bp.blogspot.com/-OgDDmkCrZG8/XZoRwj7kzxI/AAAAAAAAGAQ/25gYfzAEpsUUEc9msWN1-KduuR5dPS_IgCLcBGAsYHQ/s480/DSC_2277-Bearbeitet.jpg",
-            "https://1.bp.blogspot.com/-2daCbXCzIss/XZoSRIUsy2I/AAAAAAAAGBQ/6HzGH5Q0JdUrpHGurrwT2UUG9-YNDirGACLcBGAsYHQ/s480/DSC_2385-Bearbeitet.jpg"
+            "https://1.bp.blogspot.com/-1NnQqGd6UkE/XZoRy1p8bTI/AAAAAAAAGAU/cbWB7xFKbXQ2VhQFvtsQgt4tsJxK-mM1QCLcBGAsYHQ/s400/DSC_2275-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-OgDDmkCrZG8/XZoRwj7kzxI/AAAAAAAAGAQ/25gYfzAEpsUUEc9msWN1-KduuR5dPS_IgCLcBGAsYHQ/s400/DSC_2277-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-TiurVkwqhIU/XZoR3EfPcSI/AAAAAAAAGAY/im5rVbAkd14RrU6u-RQWIGu5VbskRlmhACLcBGAsYHQ/s400/DSC_2284-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-wrNTdnIT07U/XZoR4N1v4SI/AAAAAAAAGAc/J-AaRoMXUCAhFFSeMHTHlYzOUcdDYi_QACLcBGAsYHQ/s400/DSC_2297-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-pmCXISQ9KAs/XZoR5YrVAiI/AAAAAAAAGAg/cCYnxPXO-6cAWdIltsoSi5zPshSolsqggCLcBGAsYHQ/s400/DSC_2319-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-nJWLHhDHU_Q/XZoR6lkwbfI/AAAAAAAAGAk/hXcXEOOiNxU-ImQU_8lTnNGjhZFfpzSLwCLcBGAsYHQ/s400/DSC_2323-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-AjMSZ34t-ww/XZoR8cp0zPI/AAAAAAAAGAo/q28SCtTHSJQttN7DGhPO0W7rRKRSzJ-EACLcBGAsYHQ/s400/DSC_2328-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-qTdRlMdkySA/XZoR-UG7JnI/AAAAAAAAGAs/eFYs9xQUEtsLgObqGcbYoEXAO4vrWpWCQCLcBGAsYHQ/s400/DSC_2336-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-G_cMMiMZq4E/XZoSBBi0uqI/AAAAAAAAGAw/yZQqeZRDQ3s0T5cHnAUIJ36d9YW5ZNstACLcBGAsYHQ/s400/DSC_2344-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-m36IKxhAUR4/XZoSDDmytCI/AAAAAAAAGA0/x0Ci0RBoJ1AkmknxzLMe_pF1kF2LCzZiQCLcBGAsYHQ/s400/DSC_2347-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/--cTOFonpSB8/XZoSGHZog1I/AAAAAAAAGA4/4Rob01lVwq4WEO4K7NhZMi-1jzDyvDBqwCLcBGAsYHQ/s400/DSC_2366-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-JcvtFobgGA4/XZoSJNcEo3I/AAAAAAAAGA8/UhywKDVW6NYoWijGoxu9Qfork3GcR92BwCLcBGAsYHQ/s400/DSC_2369-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-eLzE2xD7vo0/XZoSK6NcZRI/AAAAAAAAGBE/m9h65rm3yjUWvmweOmtsR7cvWdnQMS79wCLcBGAsYHQ/s400/DSC_2376-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-qZ5Ge7cllYg/XZoSNDSuaCI/AAAAAAAAGBM/5hbIidKHAcMyH3RChiBC4U10SArcuJiGgCLcBGAsYHQ/s400/DSC_2380-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-2daCbXCzIss/XZoSRIUsy2I/AAAAAAAAGBQ/6HzGH5Q0JdUrpHGurrwT2UUG9-YNDirGACLcBGAsYHQ/s400/DSC_2385-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-FzP0ZVmxXwQ/XZoSS1BViNI/AAAAAAAAGBU/6U9TbmNNsa4QUvszRIoMCZdwvz1FeQckgCLcBGAsYHQ/s400/DSC_2388-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-cjSZd8qfCDc/XZoSU4aOqjI/AAAAAAAAGBY/TIUyFD8XOnIwRh55AmUvZTZbASyYHQNVQCLcBGAsYHQ/s400/DSC_2396-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-8Y5D3mOW8fE/XZoSWc3oPzI/AAAAAAAAGBg/Vjc6SR1YbS0b9dqhFtuzCTS4gu1blSiZACLcBGAsYHQ/s400/DSC_7196-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-aTgKTu62umc/XZoSX67H8UI/AAAAAAAAGBk/uEaQXCfObYUExxF2MFRTrttd3S7a7Xf0QCLcBGAsYHQ/s400/DSC_7204-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-1lcI6BUXK7w/XZoSZ1youZI/AAAAAAAAGBs/iRHLnGJvRJ8RKlmo2OXpAD6vNmdQLanYgCLcBGAsYHQ/s400/DSC_7217-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-AlDqpgo-AlQ/XZoSbgXVDXI/AAAAAAAAGB0/MHsEvyxJaE8sg6W5ZshW6xxl7YHyx_dsQCLcBGAsYHQ/s400/DSC_7218-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-h8qrOO4E2DA/XZoSdBRathI/AAAAAAAAGB4/_0MQJcaEU08GSOpmhKrwbUBC1ADJXJQJwCLcBGAsYHQ/s400/DSC_7267-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-GRmTaBufTgI/XZoSeZ18skI/AAAAAAAAGB8/eMTLp4R8j_gvMHsXR0PdQiiDahYoKbyfgCLcBGAsYHQ/s400/DSC_7270-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-X-P7szIeSo0/XZoSf7np6TI/AAAAAAAAGCA/MfaWG3Ax_34s7wAtJar7sPVM_VH43yK2wCLcBGAsYHQ/s400/DSC_7273-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-8Rd1F5rnQSY/XZoShnTTHvI/AAAAAAAAGCE/qSLSjN8f4LUZ7ISNWmZKdEbVOluk9zjFwCLcBGAsYHQ/s400/DSC_7277-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-VUs9T3ywU-I/XZoSjjsj0xI/AAAAAAAAGCI/8OAFT9CHnugccnoxzXfMMTwWVl9LV_2fACLcBGAsYHQ/s400/DSC_7280-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-OgDDmkCrZG8/XZoRwj7kzxI/AAAAAAAAGAQ/25gYfzAEpsUUEc9msWN1-KduuR5dPS_IgCLcBGAsYHQ/s400/DSC_2277-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-TiurVkwqhIU/XZoR3EfPcSI/AAAAAAAAGAY/im5rVbAkd14RrU6u-RQWIGu5VbskRlmhACLcBGAsYHQ/s400/DSC_2284-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-wrNTdnIT07U/XZoR4N1v4SI/AAAAAAAAGAc/J-AaRoMXUCAhFFSeMHTHlYzOUcdDYi_QACLcBGAsYHQ/s400/DSC_2297-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-pmCXISQ9KAs/XZoR5YrVAiI/AAAAAAAAGAg/cCYnxPXO-6cAWdIltsoSi5zPshSolsqggCLcBGAsYHQ/s400/DSC_2319-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-nJWLHhDHU_Q/XZoR6lkwbfI/AAAAAAAAGAk/hXcXEOOiNxU-ImQU_8lTnNGjhZFfpzSLwCLcBGAsYHQ/s400/DSC_2323-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-AjMSZ34t-ww/XZoR8cp0zPI/AAAAAAAAGAo/q28SCtTHSJQttN7DGhPO0W7rRKRSzJ-EACLcBGAsYHQ/s400/DSC_2328-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-qTdRlMdkySA/XZoR-UG7JnI/AAAAAAAAGAs/eFYs9xQUEtsLgObqGcbYoEXAO4vrWpWCQCLcBGAsYHQ/s400/DSC_2336-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-G_cMMiMZq4E/XZoSBBi0uqI/AAAAAAAAGAw/yZQqeZRDQ3s0T5cHnAUIJ36d9YW5ZNstACLcBGAsYHQ/s400/DSC_2344-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-m36IKxhAUR4/XZoSDDmytCI/AAAAAAAAGA0/x0Ci0RBoJ1AkmknxzLMe_pF1kF2LCzZiQCLcBGAsYHQ/s400/DSC_2347-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/--cTOFonpSB8/XZoSGHZog1I/AAAAAAAAGA4/4Rob01lVwq4WEO4K7NhZMi-1jzDyvDBqwCLcBGAsYHQ/s400/DSC_2366-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-JcvtFobgGA4/XZoSJNcEo3I/AAAAAAAAGA8/UhywKDVW6NYoWijGoxu9Qfork3GcR92BwCLcBGAsYHQ/s400/DSC_2369-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-eLzE2xD7vo0/XZoSK6NcZRI/AAAAAAAAGBE/m9h65rm3yjUWvmweOmtsR7cvWdnQMS79wCLcBGAsYHQ/s400/DSC_2376-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-qZ5Ge7cllYg/XZoSNDSuaCI/AAAAAAAAGBM/5hbIidKHAcMyH3RChiBC4U10SArcuJiGgCLcBGAsYHQ/s400/DSC_2380-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-2daCbXCzIss/XZoSRIUsy2I/AAAAAAAAGBQ/6HzGH5Q0JdUrpHGurrwT2UUG9-YNDirGACLcBGAsYHQ/s400/DSC_2385-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-FzP0ZVmxXwQ/XZoSS1BViNI/AAAAAAAAGBU/6U9TbmNNsa4QUvszRIoMCZdwvz1FeQckgCLcBGAsYHQ/s400/DSC_2388-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-cjSZd8qfCDc/XZoSU4aOqjI/AAAAAAAAGBY/TIUyFD8XOnIwRh55AmUvZTZbASyYHQNVQCLcBGAsYHQ/s400/DSC_2396-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-8Y5D3mOW8fE/XZoSWc3oPzI/AAAAAAAAGBg/Vjc6SR1YbS0b9dqhFtuzCTS4gu1blSiZACLcBGAsYHQ/s400/DSC_7196-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-aTgKTu62umc/XZoSX67H8UI/AAAAAAAAGBk/uEaQXCfObYUExxF2MFRTrttd3S7a7Xf0QCLcBGAsYHQ/s400/DSC_7204-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-1lcI6BUXK7w/XZoSZ1youZI/AAAAAAAAGBs/iRHLnGJvRJ8RKlmo2OXpAD6vNmdQLanYgCLcBGAsYHQ/s400/DSC_7217-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-AlDqpgo-AlQ/XZoSbgXVDXI/AAAAAAAAGB0/MHsEvyxJaE8sg6W5ZshW6xxl7YHyx_dsQCLcBGAsYHQ/s400/DSC_7218-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-h8qrOO4E2DA/XZoSdBRathI/AAAAAAAAGB4/_0MQJcaEU08GSOpmhKrwbUBC1ADJXJQJwCLcBGAsYHQ/s400/DSC_7267-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-GRmTaBufTgI/XZoSeZ18skI/AAAAAAAAGB8/eMTLp4R8j_gvMHsXR0PdQiiDahYoKbyfgCLcBGAsYHQ/s400/DSC_7270-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-X-P7szIeSo0/XZoSf7np6TI/AAAAAAAAGCA/MfaWG3Ax_34s7wAtJar7sPVM_VH43yK2wCLcBGAsYHQ/s400/DSC_7273-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-8Rd1F5rnQSY/XZoShnTTHvI/AAAAAAAAGCE/qSLSjN8f4LUZ7ISNWmZKdEbVOluk9zjFwCLcBGAsYHQ/s400/DSC_7277-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-VUs9T3ywU-I/XZoSjjsj0xI/AAAAAAAAGCI/8OAFT9CHnugccnoxzXfMMTwWVl9LV_2fACLcBGAsYHQ/s400/DSC_7280-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-4hGNu5ozdrc/XZoUGRWNfeI/AAAAAAAAGCg/g5jW9VsuLb4XzIzjZ3CKHOVNSLo9JOzQwCLcBGAsYHQ/s400/DSC_2302-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-BUMktM2b4tw/XZoUFdt884I/AAAAAAAAGCc/V7QlkBox5CsW-Pvpg2DMlhkIY5tjE7vjACLcBGAsYHQ/s400/DSC_2341-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-4hGNu5ozdrc/XZoUGRWNfeI/AAAAAAAAGCg/g5jW9VsuLb4XzIzjZ3CKHOVNSLo9JOzQwCLcBGAsYHQ/s400/DSC_2302-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-BUMktM2b4tw/XZoUFdt884I/AAAAAAAAGCc/V7QlkBox5CsW-Pvpg2DMlhkIY5tjE7vjACLcBGAsYHQ/s400/DSC_2341-Bearbeitet.jpg"
           ]
         }
       ]
@@ -125,7 +176,30 @@
       ]
     }
   ],
-  "contact": {
-    "foo": "bar"
+  "contactConfig": {
+    "contacts": [
+      {
+        "icon": "Mail",
+        "url": "mailto://amkaltenpolar71@googlemail.com",
+        "description": "Öffnet E-Mail Link"
+      },
+      {
+        "icon": "Instagram",
+        "url": "https://www.instagram.com/amkaltenpolar/",
+        "description": "Navigiert zu Instagram"
+      },
+      {
+        "icon": "Facebook",
+        "url": "https://www.facebook.com/amkaltenpolar/",
+        "description": "Navigiert zu Facebook"
+      },
+      {
+        "icon": "Blogger",
+        "url": "https://am-kalten-polar.blogspot.com/",
+        "description": "Navigiert zu Blogger"
+      }
+    ],
+    "bg": "http://3.bp.blogspot.com/-fJRUiujME0w/VJnG1GXb3UI/AAAAAAAACiQ/7sDuF5GwB3w/s480/BSC_5876.jpg"
+    
   }
 }

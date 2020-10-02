@@ -10,15 +10,17 @@
       <app-portfoliofooter
         [shorttext]="cardContent.shorttext"
       ></app-portfoliofooter>
+      <div class="backbutton">
+        <img [src]="cardContent?.icons | samplepipe" class="backbuttonpic" />
+        <div class="backbuttonicon">
+          <a routerLink="/"><fa-icon class="backbuttoncolor" [icon]="homeIcon"></fa-icon></a>
+        </div>
+      </div>
     </div>
   </div>
+  
 </div>
-<div class="backbutton">
-  <img [src]="cardContent.icons | samplepipe" class="backbuttonpic" />
-  <div class="backbuttonicon">
-    <a routerLink="/"><fa-icon class="backbuttoncolor" [icon]="homeIcon"></fa-icon></a>
-  </div>
-</div>
+
 <div class="container" *ngIf="!pictures">
   <app-errorpage></app-errorpage>
 </div>

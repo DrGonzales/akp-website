@@ -1,11 +1,11 @@
-import { Sections, Card } from '../model/contentInterface';
+import { Sections, Card, ContactConfig } from '../model/contentInterface';
 import { ContentLoadingActions, ActionTypes } from './contentloading.actions';
 
 export interface ReducerContentLoadState {
     content: Sections[];
     card: Card;
     gallery: string[];
-    defaultcontent: any;
+    contactConfig: ContactConfig;
     nocontent: boolean;
 }
 
@@ -13,7 +13,7 @@ export const initialState: ReducerContentLoadState = {
     content: [],
     card: null,
     gallery: [],
-    defaultcontent: null,
+    contactConfig: null,
     nocontent: true
 };
 
@@ -27,7 +27,7 @@ export function contentLoadReducer(
             return {
                 ...state,
                 content: action.payload.galleryContent,
-                defaultcontent: action.payload.contact
+                contactConfig: action.payload.contactConfig
             };
         }
         case ActionTypes.LoadPortfolioContentSuccess: {

@@ -8,7 +8,7 @@ import { ContentLoadResolver, PortfolioContentLoadResolver } from './resolvers';
 const routes: Routes = [
   { path: '', redirectTo: 'sections', pathMatch: 'full' },
   { path: 'sections', component: SectionlistComponentComponent, resolve: {state: ContentLoadResolver} },
-  { path: 'portfolio/:section/:portfolio', component: PortfolioComponent }
+  { path: 'portfolio/:section/:portfolio', component: PortfolioComponent, resolve: {state: ContentLoadResolver} }
 ];
 
 @NgModule({

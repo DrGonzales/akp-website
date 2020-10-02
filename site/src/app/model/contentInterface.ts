@@ -14,7 +14,18 @@ export interface Sections {
     cards: Array<Card>;
 }
 
+export interface Contact {
+    icon: string;
+    url: string;
+    description: string;
+}
+
+export interface ContactConfig {
+    contacts: Array<Contact>;
+    bg: string;
+}
+
 export interface Content {
     galleryContent: Array<Sections>;
-    contact: any;
+    contactConfig: ContactConfig;
 }

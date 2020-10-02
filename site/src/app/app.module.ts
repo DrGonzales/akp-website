@@ -13,10 +13,12 @@ import { StoreModule } from '@ngrx/store';
 
 import { featureStateName, ContentLoadingEffects, contentloadingReducers } from './store';
 import { PipesModule } from './pipes/pipes.module';
+import { ContactPaneComponent } from './contact-pane/contact-pane.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactPaneComponent,
   ],
   imports: [
     StoreModule.forRoot({}),

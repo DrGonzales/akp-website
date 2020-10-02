@@ -1,9 +1,9 @@
 .backbutton {
   position: sticky;
-  bottom: 5rem;
+  bottom: 0rem;
   width: 7.5rem;
   height: 7.5rem;
-  margin-left: 2.5rem;
+  margin-left: -13rem;
 }
 .backbuttonicon {
     display: grid;
@@ -11,9 +11,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
- 
     font-size: 4rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
 }
@@ -48,7 +47,7 @@
     .backbutton {
         width: 3rem;
         height: 3rem;
-        margin-left: 2.5rem;
+        margin-left: -8rem;
       }
       .backbuttonicon {
           font-size: 1.2rem;
@@ -60,10 +59,9 @@
     .backbutton {
         width: 3rem;
         height: 3rem;
-        margin-left: 2.5rem;
+        margin-left: -10rem;
       }
       .backbuttonicon {
           font-size: 1.2rem;
-          
       }
   }
