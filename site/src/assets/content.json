@@ -8,18 +8,24 @@
         {
           "titel": "Love",
           "tag": "Couple",
+          "blogger": ["Couple"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
             "https://3.bp.blogspot.com/-UJG8nwAenRI/WKLYBFC61tI/AAAAAAAAELk/8bqY5YtqkK4tKLxovJwcsXOwyQHySIVFACPcBGAYYCw/s400/_DSC7923-Bearbeitet_3.jpg",
             "https://2.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEXI/tRr3XcagNX8_9WtCgL77FuaVvVgooN0bQCPcBGAYYCw/s400/DSC_3534-Bearbeitet_1.jpg",
             "https://1.bp.blogspot.com/-I0JnR8Tr6SE/XnO_XWoI8XI/AAAAAAAAGZA/jQhqZcYm7Z8AEsCXf4c0BACpO7LiyEEqQCPcBGAYYCw/s400/couple_15.jpg",
-            "https://1.bp.blogspot.com/-12G081XTTHI/XnO_N0BNvVI/AAAAAAAAGYQ/FZvKgtm_SAMEH3lZ8Bq-E0QRSuq6QcIpgCLcBGAsYHQ/s480/couple_11.jpg"
+            "https://1.bp.blogspot.com/-12G081XTTHI/XnO_N0BNvVI/AAAAAAAAGYQ/FZvKgtm_SAMEH3lZ8Bq-E0QRSuq6QcIpgCLcBGAsYHQ/s400/couple_11.jpg",
+            "https://1.bp.blogspot.com/-yJ1XW1weQyk/X20R5C1yazI/AAAAAAAAG_c/BGq3ALsdL8Q7OwJ-v88akOT9t8DTG10QACLcBGAsYHQ/s400/annikaunderic%2B%252824%2529.jpg",
+            "https://4.bp.blogspot.com/-BpKsfW86p44/WUKjKs8DbjI/AAAAAAAAEWw/yFtMVTuL2AQW52NkTs7l2zF2OLB9_DsswCLcBGAs/s400/DSC_3563_1.jpg",
+            "https://1.bp.blogspot.com/-YdKbrvrJNpU/XnO_GIFMj3I/AAAAAAAAGYE/mRsDHU2nlPUvw7pb-OXhwTWyCCUxLVDXQCLcBGAsYHQ/s400/couple_09.jpg",
+            "https://3.bp.blogspot.com/-8ZguMk32eXc/WUKjD4axdfI/AAAAAAAAEWc/l4H_XYOUDAIhUSHnwTMq1h-DvvS6egtywCLcBGAs/s400/DSC_3534-Bearbeitet_1.jpg"
           ]
         },
         {
           "titel": "Wedding",
           "tag": "akpwedding",
+          "blogger": ["akpwedding"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -90,20 +96,49 @@
         {
           "titel": "Portraits",
           "tag": "akpportrait",
+          "blogger": [
+            "akpportrait",
+            "akpportrait1",
+            "akpportrait2",
+            "akpportrait3",
+            "akpportrait4",
+            "akpportrait5",
+            "akpportrait6",
+            "akpportrait7",
+            "akpportrait8",
+            "akpportrait9",
+            "akpportraitm"
+          ],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
-            "https://4.bp.blogspot.com/-r2UhcWgB770/XIz0C1mkzlI/AAAAAAAAFtY/J7Kr8LcDtpk7OSeWBd6NKjaNzeq1u9EnwCLcBGAs/s480/Vikings_%2B%252812%2529.jpg",
-            "https://1.bp.blogspot.com/-GcQ7UxkzNIg/XeObirD97_I/AAAAAAAAGQ4/hJf4HM19wdIEd9dx61QCYDW-wMYYmVDvACLcBGAsYHQ/s480/ira_goettelborn%2B%25285%2529.jpg",
-            "https://1.bp.blogspot.com/-EE6zo2zI2wQ/XpHAYof7JtI/AAAAAAAAGeg/AMHyjNDpJEwvyo81D5ZJcVeS00Wz4UMUACLcBGAsYHQ/s480/beautifull_anja%2B%25282%2529.jpg",
-            "https://1.bp.blogspot.com/-Fp3P7znHuak/XHwBfjWuqpI/AAAAAAAAFr4/1wOy2zlG18oprMp-vQvH6Ng7pp81BXsgACLcBGAs/s480/DSC_6441-Bearbeitet_2.jpg",
-            "https://1.bp.blogspot.com/-jNf0VxPkJFM/XfYa2tzpGeI/AAAAAAAAGVM/3SnF_kPzlC0tEhwW2T14hnKgWBzpcXDbACLcBGAsYHQ/s480/DSC_6566-Bearbeitet.jpg",
-            "https://1.bp.blogspot.com/-eknugnfxkOY/XpHAfs9EfKI/AAAAAAAAGe4/nA7OTstbZ1g4iOLMyNLCG_hwMLHbjbqbgCLcBGAsYHQ/s480/beautifull_anja%2B%25288%2529.jpg"
+            "https://4.bp.blogspot.com/-r2UhcWgB770/XIz0C1mkzlI/AAAAAAAAFtY/J7Kr8LcDtpk7OSeWBd6NKjaNzeq1u9EnwCLcBGAs/s400/Vikings_%2B%252812%2529.jpg",
+            "https://1.bp.blogspot.com/-GcQ7UxkzNIg/XeObirD97_I/AAAAAAAAGQ4/hJf4HM19wdIEd9dx61QCYDW-wMYYmVDvACLcBGAsYHQ/s400/ira_goettelborn%2B%25285%2529.jpg",
+            "https://1.bp.blogspot.com/-EE6zo2zI2wQ/XpHAYof7JtI/AAAAAAAAGeg/AMHyjNDpJEwvyo81D5ZJcVeS00Wz4UMUACLcBGAsYHQ/s400/beautifull_anja%2B%25282%2529.jpg",
+            "https://1.bp.blogspot.com/-Fp3P7znHuak/XHwBfjWuqpI/AAAAAAAAFr4/1wOy2zlG18oprMp-vQvH6Ng7pp81BXsgACLcBGAs/s400/DSC_6441-Bearbeitet_2.jpg",
+            "https://1.bp.blogspot.com/-jNf0VxPkJFM/XfYa2tzpGeI/AAAAAAAAGVM/3SnF_kPzlC0tEhwW2T14hnKgWBzpcXDbACLcBGAsYHQ/s400/DSC_6566-Bearbeitet.jpg",
+            "https://1.bp.blogspot.com/-eknugnfxkOY/XpHAfs9EfKI/AAAAAAAAGe4/nA7OTstbZ1g4iOLMyNLCG_hwMLHbjbqbgCLcBGAsYHQ/s400/beautifull_anja%2B%25288%2529.jpg",
+            "http://2.bp.blogspot.com/-eBvFhikv4FU/Vm7RpwIqw8I/AAAAAAAADiQ/n-K0ynkunEg/s400/Meisenheim_07_11_2015-11.jpg",
+            "http://3.bp.blogspot.com/-ZhZDEwNlASU/Vm7RvkCx6YI/AAAAAAAADjI/O0jsRQUdUaE/s400/Meisenheim_07_11_2015-1_a%2B%25289%2529.jpg",
+            "https://3.bp.blogspot.com/-z6XQLbRhgL8/WGAzCnTEhcI/AAAAAAAAEGU/t5_I1pZceXwLofe8q8V4-UVpgKCDTmXMACLcB/s400/ak_%2B%252812%2529.jpg",
+            "https://4.bp.blogspot.com/-dwGC-NUlfnM/W6k4TcXlxdI/AAAAAAAAFP8/5Flcoz-5bRcEdQv1g11iuYynY-P7WnaTACLcBGAs/s400/Sabrina_sushi%2B%25287%2529.jpg",
+            "https://1.bp.blogspot.com/-W7bihnHvVcw/XtDKLAAlZTI/AAAAAAAAGoA/husX2G8qnpMWpMrLUDNbRBX0s5LYGViIQCK4BGAsYHg/s400/summertime%2B%252811%2529.jpg",
+            "https://1.bp.blogspot.com/-AuIOsPGn0UE/W3bGUeU4WVI/AAAAAAAAFAA/aVqLvxAvvmIbMNlBhAeAlAXvawhcCX9IwCLcBGAs/s400/Anna_Meisenheim%2B%25285%2529.jpg",
+            "http://1.bp.blogspot.com/-xErRnbYyirg/VaKKdcQWbYI/AAAAAAAADDU/EcCtN2Cu_Ec/s400/il_meisenheim_25072015%2B%252818%2529.jpg",
+            "https://1.bp.blogspot.com/-mMeIZ_2_xTI/W6fAIEcsHGI/AAAAAAAAFNY/WHXLyHvo5rciLQ-OZXPi2SOj5g2kn9YLQCLcBGAs/s400/DSC_1770-Bearbeitet_2.jpg",
+            "https://1.bp.blogspot.com/-zmTJyY7-Cuc/Xb3QhUIwH0I/AAAAAAAAGHw/rKjzxEP_HwgUP3g6LhDW_Gh9rua4yQSYgCLcBGAsYHQ/s400/DSC_2874-Bearbeitet-2.jpg"
+
           ]
         },
         {
           "titel": "Cosplay und Fantasy",
           "tag": "akpcosplay",
+          "blogger": [
+            "akpcosplay",
+            "akpcosplay1",
+            "akpcosplay2",
+            "akpcosplay3"
+          ],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -117,6 +152,7 @@
         {
           "titel": "TFP Shootings",
           "tag": "akptfp",
+          "blogger": ["akptfp"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -138,6 +174,7 @@
         {
           "titel": "Lensbaby",
           "tag": "akplb",
+          "blogger": ["akplb"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -151,6 +188,7 @@
         {
           "titel": "Natur",
           "tag": "akpnatur",
+          "blogger": ["akpnatur"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -163,6 +201,7 @@
         {
           "titel": "Stadt",
           "tag": "akpcity",
+          "blogger": ["akpcity"],
           "longtext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
           "shorttext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           "icons": [
@@ -200,6 +239,5 @@
       }
     ],
     "bg": "http://3.bp.blogspot.com/-fJRUiujME0w/VJnG1GXb3UI/AAAAAAAACiQ/7sDuF5GwB3w/s480/BSC_5876.jpg"
-    
   }
 }

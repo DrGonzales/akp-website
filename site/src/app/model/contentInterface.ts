@@ -5,6 +5,7 @@ export interface Card {
     shorttext: string;
     icons: Array<string>;
     tag: string;
+    blogger: Array<string>;
 }
 
 export interface Sections {

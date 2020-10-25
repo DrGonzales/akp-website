@@ -35,9 +35,8 @@ export class PortfolioComponent implements OnInit {
       const section = routeParams.section;
       this.contentservice.getContent().subscribe(result => {
         this.cardContent = result.galleryContent.filter(sec => sec.tag === section)[0]?.cards.filter(ca => ca.tag === tag)[0];
+        this.getPicUrl(_.sample(this.cardContent.blogger));
       });
-
-      this.getPicUrl(tag);
     });
   }
 
@@ -51,7 +50,7 @@ export class PortfolioComponent implements OnInit {
       if (data && data.items) {
         data.items.forEach(element => (this.getMatches(element.content, findImageLinks, selectRegexGroup, postPrecessImageUrl))
           .forEach(url => this.result.push(this.genEntry(url, 480, 1600, this.cardContent.titel))));
-          this.pictures = _.sampleSize(this.result, this.picCount);
+        this.pictures = _.sampleSize(this.result, this.picCount);
       } else {
         this.pictures = null;
       }
@@ -63,7 +62,6 @@ export class PortfolioComponent implements OnInit {
     const matches = [];
     let match: any[];
     while (match = regex.exec(string)) {
-      console.log(match[index]);
       matches.push(fn(match[index]));
     }
     return matches;
