@@ -23,6 +23,7 @@ export interface Contact {
 
 export interface ContactConfig {
     contacts: Array<Contact>;
+    informations: Array<Contact>;
     bg: string;
 }
 

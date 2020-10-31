@@ -26,11 +26,12 @@ export class PortfolioComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
     private blogerAdapterservice: BloggerAdapterService,
-    private contentservice: ContentAdapterService) { }
+    private contentservice: ContentAdapterService,
+    ) { }
 
   ngOnInit(): void {
-    this.route.params.subscribe(routeParams => {
 
+    this.route.params.subscribe(routeParams => {
       const tag = routeParams.portfolio;
       const section = routeParams.section;
       this.contentservice.getContent().subscribe(result => {

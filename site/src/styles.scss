@@ -2,7 +2,7 @@ body {
   font-family: "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.6;
-  }
+}
 
 .cardcontainer {
   display: grid;
@@ -12,7 +12,7 @@ body {
 .card {
   position: relative;
   width: 70%;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 2.5rem;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .card__body {
   background: rgba(255, 255, 255, 0.4);
-  color:black;
+  color: black;
   padding: 3rem;
 }
 
@@ -66,19 +66,28 @@ body {
 .card__title::before {
   content: "";
   position: absolute;
-  
+
   width: calc(100% + 2rem);
   top: -0.1em;
   bottom: -0.15em;
   left: -2rem;
   z-index: -1;
   background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
-
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .card__text {
   text-align: left;
+}
+
+@media (max-width: 800px) {
+  .card__title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .card__title {
+    font-size: 2rem;
+  }
 }

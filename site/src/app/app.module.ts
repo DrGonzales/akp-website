@@ -14,11 +14,13 @@ import { StoreModule } from '@ngrx/store';
 import { featureStateName, ContentLoadingEffects, contentloadingReducers } from './store';
 import { PipesModule } from './pipes/pipes.module';
 import { ContactPaneComponent } from './contact-pane/contact-pane.component';
+import { PageviewComponent } from './pageview/pageview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactPaneComponent,
+    PageviewComponent,
   ],
   imports: [
     StoreModule.forRoot({}),

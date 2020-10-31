@@ -4,4 +4,9 @@
       <a class="nav" [href]="contact.url">{{contact.icon}}</a>
     </div>
   </div>
+  <div class="informations">
+    <div *ngFor="let info of (contactconfig$ | async)?.informations">
+      <a class="nav" [href]="info.url">{{info.icon}}</a>
+    </div>
+  </div>
 </div>

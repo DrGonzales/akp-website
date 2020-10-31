@@ -4,6 +4,7 @@ import { Sections } from 'src/app/model/contentInterface';
 import { Observable } from 'rxjs';
 import { ContentLoaderState, getContentSelector } from '../../store';
 import { Store } from '@ngrx/store';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -15,9 +16,12 @@ export class SectionlistComponentComponent implements OnInit {
   sectionContent$: Observable<Array<Sections>>;
   buttonIcon = faLink;
 
-  constructor(private store: Store<ContentLoaderState>) { }
+  constructor(private store: Store<ContentLoaderState>,
+    private route: Router) { }
 
   ngOnInit(): void {
+    console.log(this.route.url);
+ 
     this.sectionContent$ = this.store.select(getContentSelector);
   }
 

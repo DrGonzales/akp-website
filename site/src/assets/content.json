@@ -238,6 +238,18 @@
         "description": "Navigiert zu Blogger"
       }
     ],
+    "informations":[
+      {
+        "icon": "Impressum",
+        "url": "impressum",
+        "description": "Impressum"
+      },
+      {
+        "icon": "Datenschutz",
+        "url": "impressum",
+        "description": "Datenschutz"
+      }
+    ],
     "bg": "http://3.bp.blogspot.com/-fJRUiujME0w/VJnG1GXb3UI/AAAAAAAACiQ/7sDuF5GwB3w/s480/BSC_5876.jpg"
   }
 }

@@ -3,30 +3,30 @@
   flex-wrap: wrap;
   .contact {
     margin-left: 2rem;
-    .nav {
-      color: black;
-      font-weight: bold;
-      font-variant: small-caps;
-      text-decoration: none;
-      position: relative;
-    }
-    .nav::after {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      content: "";
-      width: 100%;
-      height: 2px;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 150ms ease-in;
-      background: currentColor;
-    }
-    .nav:hover::after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
+    margin-right: 4rem;
   }
-  
+  .nav {
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+    position: relative;
+  }
+  ::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 150ms ease-in;
+    background: currentColor;
+  }
+  :hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }
 

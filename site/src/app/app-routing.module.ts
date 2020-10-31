@@ -3,12 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SectionlistComponentComponent } from './sections/sectionlist-component/sectionlist-component.component';
 import { ContentLoadResolver, PortfolioContentLoadResolver } from './resolvers';
+import { PageviewComponent } from './pageview/pageview.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'sections', pathMatch: 'full' },
   { path: 'sections', component: SectionlistComponentComponent, resolve: {state: ContentLoadResolver} },
-  { path: 'portfolio/:section/:portfolio', component: PortfolioComponent, resolve: {state: ContentLoadResolver} }
+  { path: 'portfolio/:section/:portfolio', component: PortfolioComponent, resolve: {state: ContentLoadResolver} },
+  { path: 'impressum', component: PageviewComponent },
+  { path: 'datenschutz', component: PageviewComponent },
+  { path: '**', redirectTo: 'sections', pathMatch: 'full' }
 ];
 
 @NgModule({
